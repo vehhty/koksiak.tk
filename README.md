@@ -1,2 +1,2 @@
-# TemplateWWWMinecraft
-Darmowy szablon dla strony serwera Minecraft
+# NA FAME 8
+Wbijaj mordeczko
