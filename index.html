@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <title>NazwaSerwera.pl - Twój serwer minecraft…</title>
+   <script src="assets/jquery-3.4.1.min.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+   <div id="action-notice"></div>
+   <header class="page-header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+  <a class="navbar-brand" href="#"><h3>NazwaSerwera.pl</h3></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse nav-content" id="navbarText">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sklep</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Regulamin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Discord</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+         <div class="slogan">
+            <h2>Proin suscipit efficitur sem in mattis...</h2>
+            <p>Kliknij w adres, aby go skopiować i wejść do gry!</p>
+            <div class="srv">
+               <button onclick="copyTextFromElement('copyLink')" id="copyLink" value="NazwaSerwera.pl" class="button button-primary copy" >NazwaSerwera.pl</button>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="page-main">
+      <div id="info">
+         <div class="container">
+            <h3>NazwaSerwera.pl - Survival 1.16.3 </h3>
+            <p>
+               <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
+               <br>Pellentesque in ligula sit amet nisl suscipit condimentum. Donec fringilla placerat sapien, sit amet sagittis tellus tempus a. </br>
+               Nam bibendum dui a facilisis placerat. Etiam sit amet turpis metus.
+            </p>
+            <div class="features row">
+               <div class="col-lg-2 mt-5">
+                  <img src="assets/images/version.png" alt="Najnowsza wersja">
+                  <h5>Najnowsza wersja</h5>
+                  <p>Nasz serwer jest zawsze na najnowszej wersji gry. Ciesz się wszystkimi dostępnymi w grze przedmiotami!</p>
+               </div>
+               <div class="col-lg-2 mt-5">
+                  <img src="assets/images/GrassNew.png" alt="Non-premium">
+                  <h5>Non-premium</h5>
+                  <p>Nie musisz posiadać pełnej wersji gry, aby u nas zagrać.</p>
+               </div>
+               <div class="col-lg-2 mt-5">
+                  <img src="assets/images/joystick.png" alt="Rozgrywka">
+                  <h5>Rozgrywka</h5>
+                  <p>Załóż działkę, zarabiaj, handluj, walcz i wbijaj topkę!</p>
+               </div>
+               <div class="col-lg-2 mt-5">
+                  <img src="assets/images/conf.png" alt="Stabilnosc">
+                  <h5>Stabilność</h5>
+                  <p>Posiadamy wysokie parametry serwera, które zapewniają graczom wydajność.</p>
+               </div>
+               <div class="col-lg-2 mt-5">
+                  <img src="assets/images/multi.png" alt="Multiplayer">
+                  <h5>Multiplayer</h5>
+                  <p>U nas możesz zagrać ze znajomymi. Zapraszaj kolegów i baw się dobrze!</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="rangi">
+         <div class="container">
+            <h4>Rangi premium <span class="font-weight-normal"></span></h4>
+            <div class="carousel slide" data-ride="carousel" id="postsCarousel">
+               <div class="p-t-0 m-t-2 carousel-inner">
+                  <div class="carousel-item active m-t-0 ">
+                     <div class="row">
+                        <div class="col-xl-4 mt-5">
+                           <div class="card">
+                              <div class="card-block p-t-2">
+                                 <h2>Vip</h2>
+                                 <ul class="list">
+                                    <li>Prefix na czacie (Vip)</li>
+                                    <li>Możliwość pisania kolorami na czacie</li>
+                                    <li>/kit vip » specjalny zestaw</li>
+                                    <li>/sethome nazwa » ustawia maks. 3 domy</nazwa></li>
+                                    <li>/hat » zakłada przedmiot na głowę</li>
+                                    <li>/feed » uzupełnia pasek głodu</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-4 mt-5">
+                           <div class="card">
+                              <div class="card-block p-t-2">
+                                 <h2>Sponsor</h2>
+                                 <ul class="list">
+                                    <li>Prefix na czacie (Sponsor)</li>
+                                    <li>Możliwość pisania kolorami na czacie i tabliczkach</li>
+                                    <li>/sethome nazwa » ustawia maks. 5 domów</nazwa></li>
+                                    <li>/back » powraca na miejsce śmierci</li>
+                                    <li>/hat » zakłada przedmiot na głowę</li>
+                                    <li>/feed » uzupełnia pasek głodu</li>
+                                    <li>/ec » podręczny enderchest</li>
+                                    <li>/craft » podręczny crafting</li>
+                                    <li>/kit » specjalny zestaw</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-4 mt-5">
+                           <div class="card">
+                              <div class="card-block p-t-2">
+                                 <h2>Donator</h2>
+                                 <ul class="list">
+                                    <li>Prefix na czacie (Donator)</li>
+                                    <li>Wszystkie przywileje sponsora +</li>
+                                    <li>Wyróżnione miejsce na spawnie</li>
+                                    <li>Możliwość pisania kolorami na czacie i tabliczkach (z pogrubieniem)</li>
+                                    <li>Możliwość założenia działki 120x120</li>
+                                    <li>Możliwość latania na działkach</li>
+                                    <li>Obszerny sklep donatora</li>
+                                    <li>Jeszcze więcej efektów strzał</li>
+                                    <li>/sethome nazwa » ustawia maks. 10 domów</nazwa></li>
+                                    <li>/teczowy » tęczowy kolor nicku</li>
+                                    <li>/nick » edycja swojego nicku</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <div id="kontakt">
+         <h1 style="text-align:center;" class="mb-5">
+         Twórcy serwera</h4>
+         <div class="row">
+            <div class="col" style="display: block; text-align: center;">
+               <h5 style="text-align:center;">Discord#0000</h5>
+               <h4 style="text-align:center;">Właściciel XYZ </h4>
+               <img style="margin-left:auto;margin-right:auto;" src="https://minecast.pl/assets/gnomq.jpg" ></img>
+            </div>
+            <div class="col" style="display: block; text-align: center;">
+               <h5 style="text-align:center;">Discord#0000</h5>
+               <h4 style="text-align:center;">Admin XYZ2</h4>
+               <img style="margin-left:auto;margin-right:auto;" src="https://minecast.pl/assets/playerek.jpg" ></img>
+            </div>
+         </div>
+      </div>
+      </div>
+   </main>
+   <footer class="page-footer">
+      <div class="container">
+         <div class="copyr">Copyright © 2020 <a href="http://nazwaserwera.pl">nazwaserwera.pl</a> | Wszelkie prawa zastrzeżone</div>
+      </div>
+   </footer>
+   <script src="assets/js/scroll.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/scripts.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script>
+      function copyTextFromElement(elementID) {
+      	let element = document.getElementById(elementID);
+      	let elementText = element.textContent;
+      	copyText(elementText);
+
+      }
+
+
+      function copyText(text) {
+      	navigator.clipboard.writeText(text);
+      }
+   </script>
+  
+</body>
+</html>
